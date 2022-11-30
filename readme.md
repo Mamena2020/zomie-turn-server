@@ -39,7 +39,7 @@ After running this server don't forget to setup configuration to <a href="https:
    - dotenv file
    ```
     ALLOW_TURN_SERVER = "true" 
-    TURN_SERVER_HOST = "turn:ip:port"
+    TURN_SERVER_HOST = "turn:ip:port" #example: "turn:192.168.1.9:3478"
     TURN_SERVER_USERNAME = "zomie"
     TURN_SERVER_PASSWORD = "password"
    ```
@@ -48,7 +48,7 @@ After running this server don't forget to setup configuration to <a href="https:
    - .env file
    ```
     ALLOW_TURN_SERVER = "true" 
-    TURN_SERVER_HOST = ""
+    TURN_SERVER_HOST = "turn:ip:port" #example: "turn:192.168.1.9:3478"
     TURN_SERVER_USERNAME = "zomie"
     TURN_SERVER_PASSWORD = "password"
    ```
