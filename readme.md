@@ -2,7 +2,7 @@
 
 
 TURN (Traversal Using Relays around NAT) Server handling as relays media, means allows clients(<a href="https://github.com/Mamena2020/zomie-app">zomie app</a>) to send and receive data to <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a> through an intermediary server(TURN server). 
-Server running on nodejs, this server work as as backup if stun server won't work because client device behind of symmetric NAT.
+Server running on nodejs, this server work as a backup if STUN Server won't work because client device behind of symmetric NAT.
 
 
 #WebRTC with <a href="https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0">STUN/TURN</a>  
