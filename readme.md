@@ -16,6 +16,12 @@ Server running on nodejs, this server work as a backup if STUN Server won't work
 #how to use
   - config
     - create your .env from .env.example, & fill the credential
+    ```
+        PORT = 3478
+
+        USERNAME = "zomie"
+        PASSWORD = "password"
+    ```
   - install
     - npm install
   - dev
@@ -29,13 +35,13 @@ Server running on nodejs, this server work as a backup if STUN Server won't work
 
 After running this server don't forget to setup configuration to <a href="https://github.com/Mamena2020/zomie-app">zomie app</a> & <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a>
 
-- Cient(<a href="https://github.com/Mamena2020/zomie-app">zomie app</a>)
+- Client (<a href="https://github.com/Mamena2020/zomie-app">zomie app</a>)
    - dotenv file
    ```
     ALLOW_TURN_SERVER = "true" 
-    TURN_SERVER_HOST = ""
-    TURN_SERVER_USERNAME = ""
-    TURN_SERVER_PASSWORD = ""
+    TURN_SERVER_HOST = "turn:ip:port"
+    TURN_SERVER_USERNAME = "zomie"
+    TURN_SERVER_PASSWORD = "password"
    ```
 
 - <a href="https://github.com/Mamena2020/zomie-server">Media Server</a>
@@ -43,8 +49,8 @@ After running this server don't forget to setup configuration to <a href="https:
    ```
     ALLOW_TURN_SERVER = "true" 
     TURN_SERVER_HOST = ""
-    TURN_SERVER_USERNAME = ""
-    TURN_SERVER_PASSWORD = ""
+    TURN_SERVER_USERNAME = "zomie"
+    TURN_SERVER_PASSWORD = "password"
    ```
 
 - Test STUN/TURN servers
