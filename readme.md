@@ -33,7 +33,7 @@ Server running on nodejs, this server work as a backup if STUN Server won't work
 
 # Note
 
-After running this server don't forget to setup configuration to <a href="https://github.com/Mamena2020/zomie-app">zomie app</a> & <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a>
+After running this server don't forget to setup configuration of <a href="https://github.com/Mamena2020/zomie-app">zomie app</a> & <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a>
 
 - Client (<a href="https://github.com/Mamena2020/zomie-app">zomie app</a>)
    - dotenv file
