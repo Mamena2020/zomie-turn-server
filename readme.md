@@ -27,13 +27,7 @@ Server running on nodejs, this server work as as backup if stun server won't wor
 
 # Note
 
-after running this server don't forget to setup configuration to <a href="https://github.com/Mamena2020/zomie-app">zomie app</a> & <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a>
-
-- Port port for TURN
-    ```
-      3478 TCP & UDP
-      49152–65535 UDP
-    ```
+After running this server don't forget to setup configuration to <a href="https://github.com/Mamena2020/zomie-app">zomie app</a> & <a href="https://github.com/Mamena2020/zomie-server"> Media Server</a>
 
 - Cient(<a href="https://github.com/Mamena2020/zomie-app">zomie app</a>)
    - dotenv file
@@ -56,6 +50,11 @@ after running this server don't forget to setup configuration to <a href="https:
 - Test STUN/TURN servers
    - https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/
 
+- Port port for TURN
+    ```
+      3478 TCP & UDP
+      49152–65535 UDP
+    ```
 
 # References
 
