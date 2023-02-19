@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        #url{
+        width: 250px;
+        }
+        #port{
+        width: 70px;
+        }
+    </style>
+    <script src="turn.js"></script>
+</head>
+<body>
+    
+    <h1>
+        Test TURN server
+       </h1>
+       <div>
+       TURN URL: <input id='url' placeholder='example.com  or  xxx.yyy.rrr.ddd'  />
+       Port: <input type='number' value='3478' id='port' placeholder='enter a port number' />
+       </div>
+       <div>
+       Transport: <input type="radio" name="transport" id="tcp" value="tcp" /> TCP
+       <input type="radio" name="transport" id="udp" value="udp" checked/>UDP
+       </div>
+       
+       <div>
+       Username: <input id="name" placeholder="turn username" />
+       </div>
+       <div>
+       password: <input id="pass" placeholder="turn password" />
+       </div>
+       
+       <div>
+       checking Timeout: <input type='number'  id="time" placeholder="wait time  before checking timeout" value=5000 />
+       </div>
+       <div>
+       <button onclick="test()">
+       Check TURN Server
+       </button>
+       </div>
+       
+       <h4 id='result'></h4>
+</body>
+</html>

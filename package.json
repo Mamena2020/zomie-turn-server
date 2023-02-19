@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node-turn": "^0.0.6",
+    "node-turn": "^0.0.6"
+  },
+  "devDependencies":{
     "nodemon": "^2.0.20"
   }
 }
